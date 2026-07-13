@@ -1,43 +1,46 @@
+<div align="center">
+
 # 🛡️ REDFORGE
 
-<h3 align="center">
-Enterprise Attack Surface Management (ASM) Platform
-</h3>
+### Enterprise Attack Surface Management (ASM) Platform
 
-<p align="center">
+Enterprise Cybersecurity Dashboard built using **React • TypeScript • Node.js • Express.js • PostgreSQL**
 
-Enterprise Cybersecurity Dashboard built using React, TypeScript, Node.js, Express.js and PostgreSQL.
+**HackHalt Cyber Intelligence Council (HCIC) Summer Internship 2026**
 
-Developed during the <b>HackHalt Cyber Intelligence Council (HCIC) Summer Internship 2026</b>
+![License](https://img.shields.io/badge/License-MIT-red)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql)
 
-</p>
+</div>
 
 ---
 
 # 📖 Overview
 
-REDFORGE is an Enterprise Attack Surface Management (ASM) platform designed to help organizations identify, manage, monitor, and secure their digital attack surface from a centralized dashboard.
+REDFORGE is an enterprise-grade **Attack Surface Management (ASM)** platform developed as part of the **HackHalt Cyber Intelligence Council (HCIC) Summer Internship 2026**.
 
-The platform combines asset discovery, vulnerability management, security assessments, reporting, threat intelligence, role-based access control (RBAC), and administrative management into one enterprise solution.
+The platform enables organizations to identify, monitor, manage, and secure their digital attack surface through a centralized cybersecurity dashboard. It integrates asset management, vulnerability tracking, threat intelligence, reporting, security assessments, and administrative controls into one unified platform.
 
 ---
 
-# ✨ Core Features
+# 🚀 Key Features
 
-| Module | Description |
-|---------|-------------|
-| 🛡️ Surface Discovery | Discover internet-facing assets |
-| 🏢 Organization Management | Manage enterprise organizations |
-| 📂 Projects Workspace | Organize cybersecurity projects |
-| 💻 Asset Inventory | Maintain enterprise assets |
-| 🔍 Findings Lab | Record vulnerabilities & findings |
-| 📋 Security Assessments | Perform structured assessments |
-| 📊 Reporting Engine | Generate professional reports |
-| 🌐 Threat Intelligence | Threat intelligence dashboard |
-| 🏗️ Systems Blueprint | Visualize enterprise architecture |
-| ⚙️ System Controls | Administrative controls |
-| 🔐 JWT Authentication | Secure authentication |
-| 👥 RBAC | Role-Based Access Control |
+- 🛡️ Attack Surface Discovery
+- 💻 Enterprise Asset Inventory
+- 📂 Project Workspace
+- 🔍 Findings & Vulnerability Management
+- 📋 Security Assessments
+- 📊 Reporting Engine
+- 🌐 Threat Intelligence
+- 🏗️ System Architecture Blueprint
+- ⚙️ Administrative System Controls
+- 🔐 JWT Authentication
+- 👥 Role-Based Access Control (RBAC)
+- 📈 Enterprise Dashboard Analytics
 
 ---
 
@@ -48,14 +51,15 @@ The platform combines asset discovery, vulnerability management, security assess
 | Frontend | React.js, TypeScript, Tailwind CSS, Vite |
 | Backend | Node.js, Express.js |
 | Database | PostgreSQL |
-| Security | JWT Authentication, RBAC |
+| Authentication | JWT |
+| Security | RBAC, Secure APIs |
 
 ---
 
 # 📂 Project Structure
 
 ```text
-redforge/
+redforge-enterprise-asm/
 
 ├── src/
 │   ├── components/
@@ -63,7 +67,9 @@ redforge/
 │   ├── db/
 │   ├── lib/
 │   ├── middleware/
-│   └── data.ts
+│   ├── data.ts
+│   ├── App.tsx
+│   └── main.tsx
 │
 ├── server.ts
 ├── package.json
@@ -71,8 +77,35 @@ redforge/
 ├── vite.config.ts
 ├── tsconfig.json
 ├── README.md
+├── LICENSE
 └── index.html
 ```
+
+---
+
+# 🔒 Security Modules
+
+- JWT Authentication
+- Role-Based Access Control
+- Protected Routes
+- Enterprise User Management
+- Secure Backend APIs
+- Threat Intelligence Dashboard
+- Administrative Controls
+
+---
+
+# 📈 Future Enhancements
+
+- AI Threat Detection
+- CVE Database Integration
+- Shodan API Integration
+- Censys Integration
+- Automated Vulnerability Scanning
+- SIEM Integration
+- Cloud Asset Discovery
+- Multi-Factor Authentication
+- Executive PDF Reporting
 
 ---
 
@@ -90,31 +123,6 @@ npm run dev
 
 ---
 
-# 🔒 Security Features
-
-- JWT Authentication
-- Role-Based Access Control (RBAC)
-- Secure Session Management
-- Protected Routes
-- Enterprise User Management
-- Secure Backend API
-- Centralized Administration
-
----
-
-# 📈 Future Enhancements
-
-- AI-powered Threat Analysis
-- CVE Integration
-- Shodan Integration
-- Censys Integration
-- Cloud Asset Discovery
-- SIEM Integration
-- Multi-Factor Authentication
-- Automated Security Reports
-
----
-
 # 🎓 Internship Information
 
 | Item | Details |
@@ -123,6 +131,7 @@ npm run dev
 | Internship | Summer Internship 2026 |
 | Duration | June 2026 – July 2026 |
 | Domain | Enterprise Cybersecurity |
+| Project | REDFORGE – Enterprise Attack Surface Management Platform |
 
 ---
 
@@ -136,12 +145,14 @@ Gujarat University
 
 ---
 
+# 📜 License
+
+Licensed under the **MIT License**.
+
+---
+
 # ⭐ Support
 
 If you found this project useful, please consider giving it a ⭐ on GitHub.
 
----
-
-## 📜 License
-
-This project was developed for educational purposes as part of the **HackHalt Cyber Intelligence Council (HCIC) Summer Internship 2026**.
+Your support is greatly appreciated.
