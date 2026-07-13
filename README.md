@@ -1,20 +1,84 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🛡️ REDFORGE – Enterprise Attack Surface Management Platform
 
-# Run and deploy your AI Studio app
+## Enterprise Cybersecurity Dashboard
 
-This contains everything you need to run your app locally.
+REDFORGE is an enterprise-grade **Attack Surface Management (ASM)** platform developed during the **HackHalt Cyber Intelligence Council (HCIC) Summer Internship 2026**.
 
-View your app in AI Studio: https://ai.studio/apps/2c50b7cc-9e5d-4238-ae47-dc1cf3984464
+It provides a centralized dashboard for managing enterprise assets, vulnerabilities, threat intelligence, projects, security assessments, and reporting.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Features
 
+- 🛡️ Attack Surface Discovery
+- 🏢 Organization Management
+- 📂 Projects Workspace
+- 💻 Asset Inventory
+- 🔍 Findings Lab
+- 📋 Security Assessments
+- 📊 Reporting Engine
+- 🌐 Threat Intelligence
+- 🏗️ Systems Blueprint
+- ⚙️ System Controls
+- 🔐 JWT Authentication
+- 👥 Role-Based Access Control (RBAC)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- TypeScript
+- Node.js
+- Express.js
+- Vite
+- PostgreSQL
+- Tailwind CSS
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+components/
+context/
+db/
+lib/
+middleware/
+
+server.ts
+package.json
+README.md
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 📅 Internship Details
+
+**Organization:** HackHalt Cyber Intelligence Council (HCIC)
+
+**Project Duration:** June 2026 – July 2026
+
+---
+
+## 👩‍💻 Developer
+
+**Dhruvi Dave**
+
+Cyber Security & Forensic Science Student
+
+Gujarat University
+
+---
+
+⭐ If you like this project, consider giving it a Star.
