@@ -1,0 +1,9 @@
+node_modules
+dist
+drizzle
+.env
+.git
+.gitignore
+package-lock.json
+npm-debug.log
+README.md
